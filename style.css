@@ -205,7 +205,7 @@ nav ul li a:hover::after{
   .skills-container {
     max-width: 800px;
     padding: 80px;
-    background: #080808;
+    background: #ff0000;
     border-radius: 12px;
     
   }
