@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainikhil's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.flaticon.com/somepath/flaticon.css">
+    <script src="https://kit.fontawesome.com/ec6edc487e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="SAI NIKHIL.png" class="logo">
+            <ul id="sidemenu">
+                
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+
+
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>G SAI NIKHIL!</span><br></h1>
+            <p id="role-text">Full Stack Developer</p>    
+        </div>
+    </div>
+</div>
+<!-----------about-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="font-family: serif;">I am G Sai Nikhil Chowdary, a final-year B.Tech student specializing in Computer Science Engineering with a focus on the Internet of Things (IoT) at HITAM. Passionate about technology, communication, and management, I have worked on projects that merge IoT and web development to create innovative solutions. Excited about the future, I’m eager to apply my skills and make an impact in the tech world.
+                </p>
+            <div class="tab-titles">
+                    <p class="tab-links" >Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>BTech in CSE (IoT) at HITAM</li>
+                        <li><span>2019-2021</span><br>Intermediate from IMPULSE Junior College</li>
+                        <li><span>Passed out in 2019</span><br>Secondary Education from Nirmala Hrudaya High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+<!----------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="color">
+                <i class="fas fa-laptop-code"></i>
+                <h2 class="text">Web Designs</h2>
+                
+    
+            </div>
+            <div class="color">
+                <i class="fas fa-code"></i>
+                <h2 class="text">Web Developer</h2>
+                
+            </div>
+            <div class="color">
+                <i class="fas fa-cogs"></i>
+                <h2 class="text">Machine Learning</h2>
+                
+            </div>
+
+            
+        </div>
+
+    </div>
+</div>
+
+<!--------------skills-------->
+<section id="skills">
+    <div class="skills-container">
+        <div class="skills-header">
+          <h2>Professional Skills</h2>
+          <p>Explore my technical proficiency across various tools and technologies.</p>
+        </div>
+      
+        <div class="skill python" data-target-width="90%">
+          <i class="fab fa-python"></i>
+          <span class="skill-name">Python</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">90%</span>
+        </div>
+        
+        <div class="skill ml" data-target-width="75%">
+          <i class="fas fa-brain"></i>
+          <span class="skill-name">ML & DL</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">75%</span>
+        </div>
+        
+        <div class="skill htmlcss" data-target-width="95%">
+          <i class="fab fa-html5"></i>
+          <span class="skill-name">HTML & CSS</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">95%</span>
+        </div>
+        
+        <div class="skill mysql" data-target-width="75%">
+          <i class="fas fa-database"></i>
+          <span class="skill-name">MySQL</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">75%</span>
+        </div>
+        
+        <div class="skill bootstrap" data-target-width="75%">
+          <i class="fab fa-bootstrap"></i>
+          <span class="skill-name">Bootstrap</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">75%</span>
+        </div>
+        
+        <div class="skill javascript" data-target-width="65%">
+          <i class="fab fa-js-square"></i>
+          <span class="skill-name">JavaScript</span>
+          <div class="progress-bar"></div>
+          <span class="percentage">65%</span>
+        </div>
+      </div>
+         
+  </section>
+  <!-------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="project1.png" alt="img">
+                <div class="layer">
+                    <h3>Amazon clone</h3>
+                    <p>An Amazon clone page built with HTML and CSS, featuring a header, search bar, product categories, and featured products in a grid layout</p>
+                    <a href="https://sainikhil131.github.io/Amazon-clone/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project4.jpeg" alt="img">
+                <div class="layer">
+                    <h3>Face Recognition Attendance  System</h3>
+                    <p>Face detection in Python using OpenCV (cv2) with Haar Cascade classifiers to detect and highlight faces in real-time from images or video frames</p>
+                    <a href="https://github.com/sainikhil131/Face-Recognition-Based-Attendance-Monitoring-System" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project3.png" alt="img">
+                <div class="layer">
+                    <h3>Hand Gesture Recognition using ML</h3>
+                    <p>Recognize and classify hand gestures using machine learning algorithms for real-time interaction.</p>
+                    <a href="https://github.com/sainikhil131/Hand-Gesture-Recognition-using-ML" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+<br>
+<br>
+<!--------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p id="mail"><i class="fa-solid fa-paper-plane"></i><a href="mailto:ginjupallysainikhil@gmail.com">GINJUPALLY SAI NIKHIL CHOWDARY</a></p>
+                <p><i class="fa-solid fa-square-phone"></i>7396338783</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ginjupallysainikhil/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sainikhil131" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <a href="GINJUPALLY SAI NIKHIL CHOWDARY RESUME.pdf" target="_blank" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2024 All rights reserved | G SAI NIKHIL</p>
+    </div>
+</div>
+<script src="script.js"></script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>  
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzvyRwxqzXKXRaGBATrciu5monI4nINzOcLZ18AknF9BWhZxK8vttxbTAC1JPfV6exgSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfuly"
+            setTimeout(function(){
+                msg.innerHTML=""
+
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<script src="services-hover.js"></script>
+<script src="animation.js"></script>
+
+</body>
+</html>
